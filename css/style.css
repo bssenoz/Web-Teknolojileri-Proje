@@ -1,0 +1,43 @@
+body{        
+    margin:0;
+    padding:0;
+    background-image: url(../img/yeşil-arka-plan.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ .navbar {
+	opacity: 0.8;
+	border-bottom: 1px solid #fff;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+nav a:hover{
+  color:lightseagreen;
+}
+
+ .container{
+     width: 80%;
+     margin: 0 auto;
+ }
+
+ .footer {
+	bottom: 0;
+	width: 100%;
+	background: #333;
+	padding: 10px 0;
+	color: #fff;
+}
+  .ikon{
+    display: inline;
+    position: relative;
+  }
+
+  .ikon:hover{
+    width: 2%;
+ 
+  }

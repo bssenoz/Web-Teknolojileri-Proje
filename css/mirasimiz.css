@@ -1,0 +1,45 @@
+body{        
+	margin:0;
+	padding:0;
+  }
+.navbar {
+	opacity: 0.8;
+	border-bottom: 1px solid tomato;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 7px 25px;
+	display: inline-block;
+}
+nav a:hover{
+	color:tomato;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto; 
+}
+
+
+.row {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+h1{
+	text-align: center;
+	margin-top: 1%;
+	font-family: 'Itim', cursive;
+}
+h4{
+	font-family: 'Itim', cursive;
+}
+.footer {
+	bottom: 0;
+	width: 100%;
+	background: #333;
+	padding: 10px 0;
+	color: #fff;
+	text-align: center;
+}
