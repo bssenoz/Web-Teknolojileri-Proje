@@ -27,21 +27,16 @@
 
 <div align="center">
   <div class="card text-white bg-dark mb-3" style="max-width: 40rem;padding:10px 10px;margin-top:35vh;">
-    <div class="container">
-      <div class="row">
-        <div class="col-5">
-          <img src="img/login.png">
-        </div>
-        <div class="col-7">
-          <form name="loginform" action="login.php" method="POST" style="width:300px;" ><br>
-            <input class="form-control" type="email" id="email" name="email" placeholder="E-Mail" required><br>
-            <input class="form-control" type="password" id="password" name="password" placeholder="Şifre" required><br>
-            <input class="btn btn-outline-warning"type="submit" value="Giriş"><br>
-          </form><br>
-        </div>
-        <small>Email a@a.com , şifre 123456</small>
-      </div>
-    </div>
+  <?php if($_POST["email"]=="a@a.com" && $_POST["password"]==123456)
+			{
+        echo"Merhaba ".$_POST["email"];
+        echo"<br>Girişin Onaylandı.";
+      }
+      else{
+        echo "Kullanıcı e postası ya da şifre hatalı!";
+        header("refresh:2; login.html");
+      }    
+        ?>
   </div>
 </div>
 

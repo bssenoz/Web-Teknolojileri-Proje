@@ -1,30 +1,30 @@
 body{        
     margin:0;
     padding:0;
-    background-image: url(../img/devre.png);
+    background-image: url(../img/);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
  }
  .navbar {
 	opacity: 0.8;
-	border-bottom: 1px solid gold;
+	border-bottom: 1px solid #00FFFF;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+nav a:hover{
+  color:#00FFFF;
 }
 
  .container{
      width: 80%;
      margin: 0 auto;
  }
- nav a{
-     color: #fff;
-     text-decoration: none;
-     padding: 7px 25px;
-     display: inline-block;
- }
- nav a:hover{
-    color:gold;
-  }
-  
+
  .footer {
 	bottom: 0;
 	width: 100%;
@@ -32,6 +32,12 @@ body{
 	padding: 10px 0;
 	color: #fff;
 }
-.form-group{
-    width: 20%;
-}
+  .ikon{
+    display: inline;
+    position: relative;
+  }
+
+  .ikon:hover{
+    width: 2%;
+ 
+  }
