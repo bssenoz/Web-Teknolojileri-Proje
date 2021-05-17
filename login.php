@@ -9,22 +9,36 @@
 </head>
 
 <body>
-  <nav class="navbar bg-dark navbar-expand-sm navbar-dark fixed-top">
-    <div class="container">
-      <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li><a href="index.html">Anasayfa</a></li>
-          <li><a href="ozgecmis.html">Özgeçmiş</a></li>
-           <li><a href="hakkimda.html">İlgi Alanlarım</a></li>
-          <li><a href="sehrim.html">Şehrim</a></li>
-          <li><a href="mirasimiz.html">Mirasımız</a></li>
-          <li><a href="iletisim.html">İletişim</a></li>
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid" id="nav">
+      <a class="navbar-brand mb-0 h1" href="index.html">Ana Sayfa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="ozgecmis.html">Özgeçmiş</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="ilgi.html">İlgi Alanlarım</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="sehrim.html">Şehrim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="mirasimiz.html">Mirasımız</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="iletisim.html">İletişim</a>
+          </li>
         </ul>
+        <li class="nav-item" style="list-style: none;">
+          <a class="nav-link active" href="login.html">Giriş</a>
+        </li>
       </div>
-      <li style="float:right;"><a href="login.html">Giriş</a></li>
     </div>
   </nav>
-
 <div align="center">
   <div class="card text-white bg-dark mb-3" style="max-width: 40rem;padding:10px 10px;margin-top:35vh;">
   <?php if($_POST["email"]=="a@a.com" && $_POST["password"]==123456)

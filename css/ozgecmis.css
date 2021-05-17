@@ -3,22 +3,28 @@ body {
     padding: 0;
 }
 
-.navbar {
+#navbar {
     opacity: 0.9;
     border-bottom: 1px solid maroon;
 }
-nav a {
+#nav a {
     color: #fff;
     text-decoration: none;
     padding: 7px 25px;
     display: inline-block;
 }
-nav a:hover {
+#nav a:hover {
     color: maroon;
 }
-.container {
-    width: 80%;
-    margin: 0 auto;
+#center{
+    height: 100vh;
+    margin-top:15vh;
+}
+#tbEgitim{
+    width: 90%;
+}
+#tbProgramlama{
+    width: 50%;
 }
 
 a.okul {
@@ -29,6 +35,9 @@ a.okul:link {
 }
 a.okul:hover {
     color: brown;
+}
+.info{
+    margin:2%;
 }
 .footer {
 	bottom: 0;

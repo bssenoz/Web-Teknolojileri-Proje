@@ -12,29 +12,43 @@
 
 </head>
 
-<body style="background-color:#A8CCCD;">
-    <nav class="navbar bg-dark navbar-expand-sm navbar-dark fixed-top">
-        <div class="container">
-          <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-              <li><a href="index.html">Anasayfa</a></li>
-              <li><a href="ozgecmis.html">Özgeçmiş</a></li>
-               <li><a href="hakkimda.html">İlgi Alanlarım</a></li>
-              <li><a href="sehrim.html">Şehrim</a></li>
-              <li><a href="mirasimiz.html">Mirasımız</a></li>
-              <li><a href="iletisim.html">İletişim</a></li>
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid" id="nav">
+          <a class="navbar-brand mb-0 h1" href="index.html">Ana Sayfa</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="ozgecmis.html">Özgeçmiş</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="ilgi.html">İlgi Alanlarım</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="sehrim.html">Şehrim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="mirasimiz.html">Mirasımız</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="iletisim.html">İletişim</a>
+              </li>
             </ul>
+            <li class="nav-item" style="list-style: none;">
+              <a class="nav-link active" href="login.html">Giriş</a>
+            </li>
           </div>
-          <li style="float:right;"><a href="login.html">Giriş</a></li>
         </div>
       </nav>
-    
     <img src="img/kaleici-sokaklari.jpg" class="d-block w-100" alt="kaleiçi sokakları" style="height: 550px;">
     <h1 >KALEİÇİ</h1>
     <div class="container" >
         <div class="row">
             <div class="col">
-                <div class="card text-dark bg-light mb-3" style="padding: 10px 10px;text-align: center;">
+                <div class="card text-dark bg-light mb-3" style="text-align: center;">
                     <p>Antalya Antik Şehri, at nalı şeklindeki iki kalın duvar tarafından korunmaktadır. Bu sur
                         şeklindeki
                         duvarlardan
@@ -87,11 +101,11 @@
     <div class="container" style="margin-top:5%; ">
         <div class="row">
             <div class="col">
-                <img src="img/yivli.jpg" alt="yivli minare" style="width: 80%;">
+                <img src="img/yivli.jpg" alt="yivli minare" >
             </div>
             <div class="col">
                 <h4 style="margin-top:4%;">Yivli Minare</h4>
-                <p class="card text-dark bg-light mb-3" style="max-width: 40rem;padding: 10px 10px">Anadolu Selçuklu Sultanı I. Alaaddin
+                <p class="card text-dark bg-light mb-3" style="max-width: 40rem;">Anadolu Selçuklu Sultanı I. Alaaddin
                     Keykubat zamanında yapılmıştır. Kare bir kaide üzerinde yaklaşık
                     39
                     metre yüksekliğiyle şehri izlemektedir. Yapının gövdesi tuğla ve firuze renkli çinilerden
@@ -105,11 +119,11 @@
         </div>
         <div class="row">
             <div class="col">
-                <img src="img/Antalya_Saat_Kulesi.jpeg" alt="saat kulesi" style="width: 80%;">
+                <img src="img/Antalya_Saat_Kulesi.jpeg" alt="saat kulesi" >
             </div>
             <div class="col">
                 <h4 style="margin-top:8%;">Saat Kulesi</h4>
-                <p class="card text-dark bg-light mb-3" style="max-width: 45rem;padding: 10px 10px">Cumhuriyet Caddesi üzerinde, Kalekapısı
+                <p class="card text-dark bg-light mb-3" style="max-width: 40rem;">Cumhuriyet Caddesi üzerinde, Kalekapısı
                     denilen mevkidedir. Şehrin sembol yapılarından bir diğeri
                     olan Saat Kulesi dış surların üzerine inşa edilmiştir.Sultan II.Abdülhamit’in tahta çıkışının
                     25.
@@ -126,10 +140,10 @@
 
         </div>
         <div class="row">
-            <div class="col"> <img src="img/antalya-hadrian-uckapilar.jpg" alt="hadrian kapısı" style="width: 80%;"></div>
+            <div class="col"> <img src="img/antalya-hadrian-uckapilar.jpg" alt="hadrian kapısı" ></div>
             <div class="col">
                 <h4 style="margin-top: 7%;">Hadrian Kapısı</h4>
-                <p class="card text-dark bg-light mb-3" style="max-width: 40rem;padding: 10px 10px">Atatürk Caddesi’nde bulunan kapı,
+                <p class="card text-dark bg-light mb-3" style="max-width: 40rem;">Atatürk Caddesi’nde bulunan kapı,
                     dilerseniz Kaleiçi’ne giriş yapabileceğiniz ilk nokta
                     olabilir.Halkın
                     deyimiyle “Üç Kapılar” olarak anılmasının sebebi ise kapının kemerli 3 açıklığa sahip
@@ -147,10 +161,10 @@
 
         </div>
         <div class="row">
-            <div class="col"> <img src="img/hidirlik-kulesi.jpg " alt="hıdırlık kulesi" style="width: 80%;"></div>
+            <div class="col"> <img src="img/hidirlik-kulesi.jpg " alt="hıdırlık kulesi" ></div>
             <div class="col">
-                <h4 style="margin-top:5%;">Hıdırlık Kulesi</h4>
-                <p class="card text-dark bg-light mb-3" style="max-width: 40rem;padding: 10px 10px">Tam yapım tarihi bilinmese de M.S. 2.
+                <h4 >Hıdırlık Kulesi</h4>
+                <p class="card text-dark bg-light mb-3" style="max-width: 40rem;">Tam yapım tarihi bilinmese de M.S. 2.
                     yüzyıl yapısı olduğu hatta imparator Hadrian döneminde
                     yapıldığı söylenmektedir. Hıdırlık Kulesi de kentin simgeleşmiş yapılarından biridir.
                     Kaleiçi
@@ -167,10 +181,10 @@
 
         </div>
         <div class="row">
-            <div class="col"> <img src="img/antalya-kaleici-limani.jpg" alt="yat limanı" style="width: 80%;"></div>
+            <div class="col"> <img src="img/antalya-kaleici-limani.jpg" alt="yat limanı" ></div>
             <div class="col">
                 <h4 style="margin-top:7%;">Yat Limanı</h4>
-                <p class="card text-dark bg-light mb-3" style="max-width: 40rem;padding: 10px 10px">Kaleiçi’nde deniz kıyısına
+                <p class="card text-dark bg-light mb-3" style="max-width: 40rem;">Kaleiçi’nde deniz kıyısına
                     ulaştığınızda, falezlerin üzerine kurulu bu kentin en tarihi
                     noktasına
                     ulaşmış oluyorsunuz aslında. Antik dönemde burada Korykos isminde bir korsan limanının

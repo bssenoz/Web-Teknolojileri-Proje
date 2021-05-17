@@ -11,43 +11,145 @@
 </head>
 
 <body>
-  <nav class="navbar bg-dark navbar-expand-sm navbar-dark fixed-top">
-    <div class="container">
-      <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li><a href="index.html">Anasayfa</a></li>
-          <li><a href="ozgecmis.html">Özgeçmiş</a></li>
-           <li><a href="hakkimda.html">İlgi Alanlarım</a></li>
-          <li><a href="sehrim.html">Şehrim</a></li>
-          <li><a href="mirasimiz.html">Mirasımız</a></li>
-          <li><a href="iletisim.html">İletişim</a></li>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid" id="nav">
+      <a class="navbar-brand mb-0 h1" href="index.html">Ana Sayfa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="ozgecmis.html">Özgeçmiş</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="ilgi.html">İlgi Alanlarım</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="sehrim.html">Şehrim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="mirasimiz.html">Mirasımız</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="iletisim.html">İletişim</a>
+          </li>
         </ul>
+        <li class="nav-item" style="list-style: none;">
+          <a class="nav-link active" href="login.html">Giriş</a>
+        </li>
       </div>
-      <li style="float:right;"><a href="login.html">Giriş</a></li>
     </div>
   </nav>
 
-  <div class="info" style="height: 100vh;">
-  
-    <div align="center"><img src="img/s-baee7638ad3048a9608a7bf7e2b7d593262c10a3.webp"
-        style="width: 20%;margin-top:20vh;">
-      <p style="width: 20%;color: white;margin-top:1%;">Merhaba, ben Buse Şenöz. 19 yaşında bir mühendis adayıyım.
-        Antalya'da yaşıyorum. Bu siteyi Web
-        Teknolojileri dersi dönem projesi için
-        tasarladım.</p>
-        <div class="iletisim" >
-          <a href="https://www.instagram.com/bssenoz/%22%3E"><img class="ikon" src="img/instagram.png"></a>
-          <a href="https://www.facebook.com/buse.senoz.1/%22%3E"><img class="ikon" src="img/facebook.png"></a>
-          <a href="https://twitter.com/bssenoz%22%3E"><img class="ikon" src="img/twitter.png"></a>
-          <a href="https://www.linkedin.com/in/buse-şenöz-389022189/%22%3E"><img class="ikon" src="img/linkedin.png"></a>
-          <a href="https://github.com/bssenoz%22%3E"><img class="ikon" src="img/github.png"></a>
-          <a href="mailto:bsenoz@hotmail.com"><img class="ikon" src="img/mail.jpg"></a>
-        </div>
+
+
+  <div align="center" id="center" style="margin-top:40vh;">
+    <a href="#hakkimda" style="color:white">
+      <h2>Buse Şenöz</h2>
+    </a>
+    <p style="color:white">Bilgisayar Mühendisliği Öğrencisi</p>
+
+    <div class="iletisim">
+      <a href="https://www.instagram.com/bssenoz"><img class="ikon" src="img/instagram.png"></a>
+      <a href="https://www.facebook.com/buse.senoz.1"><img class="ikon" src="img/facebook.png"></a>
+      <a href="https://twitter.com/bssenoz"><img class="ikon" src="img/twitter.png"></a>
+      <a href="https://www.linkedin.com/in/buse-şenöz-389022189"><img class="ikon" src="img/linkedin.png"></a>
+      <a href="https://github.com/bssenoz"><img class="ikon" src="img/github.png"></a>
+      <a href="mailto:bsenoz@hotmail.com"><img class="ikon" src="img/mail.jpg"></a>
     </div>
-  
+
   </div>
- 
- <div class="footer">
+
+  <div align="center" style="margin-bottom:10%;">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card mb-3" style="max-width: 80%;" id="hakkimda">
+            <div class="row">
+              <div class="col">
+                <div class="card-body">
+                  <h1>Ben Kimim?</h1>
+                  <p class="card-text">Ben Buse Şenöz. 3 Haziran 2001'de Antalya'da doğdum. Doğduğumdan beri Antalya'da
+                    yaşıyorum. Aslen ise
+                    Çorumluyum. Liseden 2019 yılında mezun oldum. 2020 yılında ise Sakarya Üniversitesine başladım. Şu
+                    an Bilgisayar Mühendisliği 1.sınıf öğrencisiyim. Yeni şeyler öğrenmeyi ve gezmeyi çok seviyorum. Boş
+                    zamanlarımda kitap okuyor en çokta bisiklet sürüyorum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row row-cols-1 row-cols-md-2 g-4" style="margin-bottom: 25%;">
+        <div class="col">
+          <div class="card" style="height: 100%;">
+            <img src="img/Kodlamajpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>Yazılım ve Ben</h3>
+              <p class="card-text">Yazılımla ilgilenmeye bölüme başlayınca başladığımı söyleyebilirim. Aslında bu
+                bölümü
+                tercih etmemdeki en
+                büyük sebeplerden biri kodların arasında bir matematik oluşuydu. Ezberden çok mantık üzerine işliyordu
+                her
+                şey. Şu an daha çok web programlamayla uğraşıyorum. Her alanı deneyip kendime olanı bulup oradan
+                ilerlemek
+                istiyorum. Projelerimi inceleyebilirsiniz.</p>
+              <a href="https://github.com/bssenoz?tab=repositories"><button type="button"
+                  class="btn btn-dark">Github</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="height: 100%;">
+            <div class="card-body">
+              <h3 class="card-title">Kitaplar</h3>
+              <p class="card-text">Kitap okumayı <a href="https://tr.wikipedia.org/wiki/%C5%9Eeker_Portakal%C4%B1">Şeker
+                  Portakalı</a>
+                ile sevmeye başladım. Hemen hemen her türde okuyorum ama şu an daha çok distopik kitapları
+                seviyorum. Sahafta sessizce dolaşıp kitapları incelemek hoşuma gidiyor. Eğer olurda yolunuz Antalya'ya
+                düşerse kesinlikle buraya uğramalısınız. Resme tıklayın.<br><br>
+                <a href="https://tr.wikipedia.org/wiki/Biz_(roman)">öneri kitap</a>
+              </p>
+            </div>
+            <a
+              href="https://www.google.com/maps/place/%C4%B0ltem+Antik+Sahaf/@36.8870074,30.6993603,17z/data=!3m1!4b1!4m5!3m4!1s0x14c39004ba527f53:0x9a14e113fac1306e!8m2!3d36.8869755!4d30.7014817?hl=tr"><img
+                src="img/sahaf3.jpg" class="card-img-top" alt="..."></a>
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="height: 100%;">
+            <div class="card-body">
+              <h3 class="card-title">Bisiklet</h3>
+              <p class="card-text">Bisiklet sürmenin hayatımdaki en büyük zevk olduğunu söylesem yanlış olmaz
+                sanırım. Vakit bulduğum her an sürerim. Müzik dinleyerek tek başıma kilometrelerce vakit geçirmek en büyük alışkanlıklarımdan biri. 
+      
+              </p>
+            </div>
+            <img src="img/20210517_111459.jpg" class="card-img-top" alt="..."></a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="height: 100%;">
+            <img src="img/photo_2021-05-11_23-15-01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Yüzmek</h3>
+              <p class="card-text">Sahilde dolaşmak vakit geçirmek hep sevdiğim şeylerden biri olmuştur. Yüzmek ise küçükkenki deniz korkumdan dolayı sonradan elde edebildiğim bir zevk. Şu an yüzmeyi çok seviyorum.
+                Çok iyi bir yüzücü olduğum söylenemez ama yüzmek beni mutlu ediyor, rahatlatıyor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="footer">
     <div class="container" style="text-align: center;">Buse Şenöz &copy; 2021</div>
   </div>
 

@@ -6,24 +6,26 @@ body{
     background-attachment: fixed;
     background-size: cover;
  }
- .navbar {
+ #navbar {
 	opacity: 0.8;
 	border-bottom: 1px solid #fff;
 }
-nav a{
+#nav a{
   color: #fff;
   text-decoration: none;
   padding: 7px 25px;
   display: inline-block;
 }
-nav a:hover{
+#nav a:hover{
   color:lightseagreen;
 }
-
- .container{
-     width: 80%;
-     margin: 0 auto;
- }
+#center{
+  height: 100vh;
+}
+#foto{
+  width: 20%;
+  margin-top:20vh;
+}
 
  .footer {
 	bottom: 0;
