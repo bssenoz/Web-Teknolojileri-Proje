@@ -21,7 +21,7 @@ body{
     color:gold;
   }
   #center{
-      margin-top:25vh;
+      margin-top:20vh;
   }
   .row {
     margin-top: 5%;
@@ -38,11 +38,4 @@ body{
 }
 #floatingTextarea2{
     height: 100px;
-}
-.footer {
-	bottom: 0;
-	width: 100%;
-	background: #333;
-	padding: 10px 0;
-	color: #fff;
 }

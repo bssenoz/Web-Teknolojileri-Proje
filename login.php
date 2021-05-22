@@ -41,7 +41,7 @@
   </nav>
 <div align="center">
   <div class="card text-white bg-dark mb-3" style="max-width: 40rem;padding:10px 10px;margin-top:35vh;">
-  <?php if($_POST["email"]=="a@a.com" && $_POST["password"]==123456)
+  <?php if($_POST["email"]=="b201210025@sakarya.edu.tr" && $_POST["password"]=="b201210025")
 			{
         echo"Merhaba ".$_POST["email"];
         echo"<br>Girişin Onaylandı.";

@@ -16,8 +16,8 @@ body {
   padding: 7px 25px;
   display: inline-block;
 }
-#nav a:hover{
-  color:royalblue;
+#nav a:hover {
+  color: royalblue;
 }
 
 .carousel {
@@ -35,18 +35,17 @@ body {
   border-bottom: 3px royalblue solid;
 }
 
-.row {
+.card {
+  width: 35rem;
   margin-top: 5%;
   margin-bottom: 5%;
 }
-h1{
+h1 {
   text-align: center;
-  margin-top:2%;
-  margin-bottom:2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-.card{
-  width: 35rem;
-}
+
 .footer {
   bottom: 0;
   width: 100%;

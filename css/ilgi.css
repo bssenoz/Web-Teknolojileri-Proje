@@ -1,7 +1,7 @@
 body{        
     margin:0;
     padding:0;
-    background-image: url(../img/background-1070342_960_720.jpg);
+    background-image: url(../img/unnamed.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -20,22 +20,92 @@ body{
 #nav a:hover{
   color:#00FFFF;
 }
-#center{
-  margin-top:15vh;
-  margin-bottom: 15vh;
+.search {
+  background-color: transparent;
+  border: 2px solid #00FFFF;
+  border-radius: 5px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
 }
-.row {
-  margin-top: 5%;
-  margin-bottom: 5%;
+
+.search::placeholder {
+  color: #00FFFF
 }
-h1,h4,h5{
-  font-family: 'KoHo', sans-serif;
+
+main {
+  display: flex;
+  flex-wrap: wrap;
 }
- .footer {
-	bottom: 0;
-	width: 100%;
-	background: #333;
-	padding: 10px 0;
-	color: #fff;
+
+.movie {
+  border-radius: 10px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  margin: 2rem;
+  width: 420px;
 }
+
+.movie img {
+  width: 50%;
+}
+
+.movie-info {
+  color:#00FFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;/*yatay konum*/
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;/*harfler arasi bosluk*/
+}
+
+.movie-info span {
+  background-color: #22254b;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+}
+
+.movie-info span.green {
+  color: rgb(39, 189, 39);
+}
+
+.movie-info span.yellow {
+  color: rgb(221, 221, 75);
+}
+
+.movie-info span.red {
+  color: rgb(189, 42, 42);
+}
+
+.overview {
+  background-color: #00FFFF;
+  color:black;
+  padding: 2rem;
+  position: absolute;
+  max-height: 100%;
+  overflow: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateY(101%);
+  transition: transform 0.3s ease-in;
+}
+
+
+.movie:hover .overview {
+  transform: translateY(0);
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+}
+
   
