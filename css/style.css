@@ -27,6 +27,12 @@ body{
   margin-top:20vh;
 }
 
+a.kitap:link {
+  text-decoration: none;
+}
+a.kitap:hover {
+  color: brown;
+}
  .footer {
 	bottom: 0;
 	width: 100%;
