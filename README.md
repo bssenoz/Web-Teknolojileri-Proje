@@ -19,4 +19,5 @@
 - Mail ve şifre doğrulanırsa “Hoşgeldiniz” mesajı veren yanlış ise login sayfasına geri yönlendiren Login sayfası
 
 **Sayfanın canlı haline adres çubuğuna "http://b201210025.great-site.net/" yazarak ulaşabilirsiniz.**
-Mail adreslerim:<bsenoz@hotmail.com> <buse.senoz@ogr.sakarya.edu.tr>
+
+*Mail adreslerim:<bsenoz@hotmail.com> <buse.senoz@ogr.sakarya.edu.tr>*
