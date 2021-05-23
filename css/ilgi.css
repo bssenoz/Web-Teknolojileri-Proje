@@ -32,19 +32,26 @@ body{
 .search::placeholder {
   color: #00FFFF
 }
-
+#center{
+  margin-bottom:30%;
+  margin-top:10%;
+}
 main {
   display: flex;
-  flex-wrap: wrap;/*sigmayan asagi iner*/
+  flex-wrap: wrap;/*sırayla gider sigmayan asagi iner*/
+  margin-left:2%;
 }
 
+#form{
+  margin-bottom: 5%;
+}
 .movie {
   border-radius: 10px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   position: relative;
   margin: 2rem;
-  width: 420px;
+  width: 390px;
 }
 
 .movie img {
@@ -98,7 +105,7 @@ main {
 }
 
 .footer {
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   background: #333;
   padding: 10px 0;

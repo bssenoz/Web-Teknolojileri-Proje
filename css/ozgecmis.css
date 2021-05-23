@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color:rgb(226, 222, 181) !important;
 }
 
 #navbar {
@@ -17,8 +18,8 @@ body {
     color: maroon;
 }
 #center{
-    height: 100vh;
     margin-top:15vh;
+    height: 100vh;
 }
 #tbEgitim{
     width: 90%;
